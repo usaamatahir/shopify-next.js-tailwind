@@ -1,7 +1,8 @@
 import ProductPageContent from "../../components/ProductPageContent"
 import { getAllProducts, getProduct, recursiveCatalog } from "../../lib/shopify"
 
-export default function ProductPage ({ product }) {
+export default function ProductPage({ product }) {
+
   return (
     <div className="min-h-screen py-12 sm:pt-20">
       <ProductPageContent product={product} />
